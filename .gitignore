@@ -1,0 +1,13 @@
+input/
+out/
+.venv/
+__pycache__/
+node_modules/
+*.report.txt
+.superpowers/
+.DS_Store
+переписка.md
+*.zip
+bot/node_modules/
+bot/.eval-home/
+*.egg-info/

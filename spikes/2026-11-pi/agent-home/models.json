@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "neuraldeep": {
+      "baseUrl": "https://api.neuraldeep.ru/v1",
+      "api": "openai-completions",
+      "apiKey": "!~/.local/bin/neuraldeep-hub-key",
+      "compat": {
+        "supportsDeveloperRole": false,
+        "supportsReasoningEffort": false,
+        "maxTokensField": "max_tokens"
+      },
+      "models": [
+        {
+          "id": "qwen3.8-27b",
+          "name": "Qwen 3.8 27B",
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 256000,
+          "maxTokens": 8192
+        },
+        {
+          "id": "qwen3.6-fp8",
+          "name": "Qwen 3.6 FP8",
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 256000,
+          "maxTokens": 8192
+        },
+        {
+          "id": "qwen3.8-27b-noreason",
+          "name": "qwen3.8-27b-noreason",
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 256000,
+          "maxTokens": 8192
+        },
+        {
+          "id": "qwen3.6-fp8-noreason",
+          "name": "qwen3.6-fp8-noreason",
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 256000,
+          "maxTokens": 8192
+        }
+      ]
+    }
+  }
+}
